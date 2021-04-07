@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "stockPTTBot"
+
+[packages]
+python-telegram-bot = "*"
+flask = "*"
+gunicorn = "*"
+requests = "*"
+beautifulsoup4 = "*"
+redis = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
